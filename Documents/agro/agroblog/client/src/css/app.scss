@@ -1,0 +1,98 @@
+.borderGray{
+    border: solid 1px gray;
+}
+.b-test{
+    border: solid red 5px;
+}
+.card-header {
+    background-color: blue;
+    color: white;
+}
+.borderCurved5{
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.gAlignMiddle{
+    display: grid;
+    align-content: space-around;
+}
+.borderOutline{
+    border: solid 1px rgb(211, 206, 206);
+}
+.mh-10{ min-height: 10cm;}
+.minHeight10{
+    min-height: 10em;
+}
+
+.gAlignMiddle{
+    display: grid;
+    align-content: space-around;
+}
+
+.fs-18 {font-size: 18px !important;}
+.fs-26 {font-size: 26px !important;}
+.fs-32{
+    font-size: 32px !important;
+}
+.fl{
+    float: left;
+}
+.fr{float: right;}
+//text
+.textWhite{color: white !important;}
+.textCadetBlueHover:hover{color:cadetblue !important;}
+//width
+.width100P {width: 100%;}
+//margin 
+.margin10 {margin:10px;}
+.marginTop10 {margin-top: 10px;}
+.marginTop15 {margin-top: 15px;}
+.marginTop50 {margin-top: 50px;}
+.marginBottom10 {margin-bottom: 10px;}
+
+.marginTop_1{ margin-top: 1cm; }
+
+
+.marginLeft_1{ margin-left: 1cm; }
+
+.marginBottom_1 {margin-bottom: 1cm; }
+.ml-1 {margin-left: 1cm;}
+//padding
+.p-0 {padding: 0px;}
+//height 
+.h-2 { height: 2cm;}
+.h-3 { height: 3cm;}
+.h-5 { height: 5cm;}
+.h-8 {height: 8cm;}
+.h-f { height: 100%;}
+
+.textBold{
+    font-weight: bold;
+}
+
+$primary3: #db3d44 !important;
+$primary3_second: #efa9ac !important;
+//$primary3_side: 
+$primary : #007bff !important;
+$primary_second: #80bdff !important;
+$primary2 : #00254d !important;
+$primary2_second : #0062cd !important;
+
+$editingColor : rgba(255, 154, 59, 0.76);
+.editing{ background-color: $editingColor; }
+.card .card-header {
+    background-color: $primary2;
+}
+.card .card .card-header{
+    background-color: $primary2_second;
+}
+
+/* 
+body{
+    border: solid green 5px;
+}
+#app { border: solid yellow 5px; background-color: rgba(0, 0, 255, 0.198)} */
+.bg-t{background-color: rgba(101, 114, 126, 0.308);}
